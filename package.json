@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "웹 소켓",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "author": "Jungi Kim",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
