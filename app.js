@@ -1,10 +1,7 @@
+require("dotenv").config();
 const express = require("express");
-const cors = require("cors");
 const webSocket = require("./socket");
 const app = express();
-
-// CORS 설정
-app.use(cors());
 
 app.set("port", 3000);
 
